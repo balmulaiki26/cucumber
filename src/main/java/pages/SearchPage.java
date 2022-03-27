@@ -11,7 +11,7 @@ public class SearchPage {
     public SearchPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
-    }git
+    }
     @FindBy(xpath = "//*[@id=\"twotabsearchtextbox\"]")
     WebElement searchBar;
 
